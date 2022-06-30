@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Remera ",
+    "timestamp": 1656609572728,
+    "description": "Remera Gucci de cuero con logos",
+    "cod": "05454",
+    "image": "1651863346203-6.jpg",
+    "price": "8500",
+    "stock": 3,
+    "id": 2
+  },
+  {
+    "name": "Remera ",
+    "timestamp": 1656609588233,
+    "description": "Remera Gucci de cuero con logos",
+    "cod": "05454",
+    "image": "1651863346203-6.jpg",
+    "price": "8500",
+    "stock": 3,
+    "id": 3
+  },
+  {
+    "name": "Remera ",
+    "timestamp": "2022-06-30",
+    "description": "Remera Gucci de cuero con logos",
+    "cod": "05454",
+    "image": "1651863346203-6.jpg",
+    "price": "8500",
+    "stock": 3,
+    "id": 4
+  },
+  {
+    "name": "Remera ",
+    "timestamp": "2022-06-30",
+    "description": "Remera Gucci de cuero con logos",
+    "cod": "05454",
+    "image": "1651863346203-6.jpg",
+    "price": "8500",
+    "stock": 3,
+    "id": 5
+  }
+]
