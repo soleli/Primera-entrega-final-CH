@@ -1,7 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const productsRoutes = require('./src/routes/api/productsRoutes');
+const productsAPIRoutes = require('./src/routes/api/productsRoutes');
+const cartAPIRoutes = require('./src/routes/api/cartRoutes');
 const methodOverride =  require('method-override');
 
 const cors = require("cors");
@@ -25,9 +26,8 @@ app.use(methodOverride('_method'));
 const pathStatic = path.resolve(__dirname, "./public");
 app.use(express.static(pathStatic));
 
-app.use('/api/products' ,productsRoutes);
-
-//app.use('/api/products' ,apiProductsRoutes);
+app.use('/api/products' ,productsAPIRoutes);
+app.use('/api/cart' ,cartAPIRoutes);
 
 
 
